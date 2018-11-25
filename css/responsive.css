@@ -42,7 +42,9 @@ header .navbar-nav li:hover a{
     .container{
         max-width: 947px;
     }
-    
+    .left-content{
+        border-right: 1px dotted #9A9A9A;
+    }
 }
 
 
