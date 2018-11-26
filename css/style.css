@@ -37,7 +37,7 @@ header .navbar-nav li:last-of-type a{
 header .navbar-nav li.active a,
 header .navbar-nav li:hover a{
     background: #000;
-    color: #fff!important;
+    color: #fff !important;
     
     
 /*News Section*/
@@ -131,13 +131,13 @@ header .navbar-nav li:hover a{
 .news-navigation a{
     text-decoration: none;
     color: #4d4d4d;
-    font-size: 22px;
+    font-size: 16px;
     font-family: 'Arial-BoldMT';
-    text-decoration: none;
+    
 }
 .news-navigation > span{
     color: #4d4d4d;
-    font-size: 22px;
+    font-size: 16px;
     padding: 0 15px;
     display: inline-block;
 }
@@ -145,4 +145,41 @@ header .navbar-nav li:hover a{
 .news-navigation a:hover{
     color: #000;
     text-shadow:0 0 2px #4d4d4d;
+}
+.social a{
+    color: #000;
+    font-size: 32px;
+    text-decoration: none;
+}
+.search-form .form-control{
+    border-radius: 0;
+    background: #f7f7f7;
+}
+.top-articles .top-articles-item img{
+    border:5px solid #444;
+}
+.top-articles .top-articles-item .w-75a{
+    text-decoration: none;
+    line-height: 1.5rem;
+    max-height: 3rem;
+    overflow: hidden;
+    padding-left: 5px;
+    display: block;
+}
+.recent-comments-item span .w-75{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.recent-comments p{
+    font-size: 12px;
+    border-top: 1px solid #ccc;
+}
+.recent-comments p:last-of-type{
+    border-bottom: 1px solid #ccc;
+}
+.recent-comments a{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
 }

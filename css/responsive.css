@@ -2,11 +2,10 @@
 
 
 @media(min-width:576px){
-    
-    
-    
-    
-    
+    .news-navigation a,
+    .news-navigation>span{
+        font-size: 22px;
+    }
     
 }
 
